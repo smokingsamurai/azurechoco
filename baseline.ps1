@@ -5,4 +5,4 @@ choco install dotnet-sdk --version=5.0.201 -y
 choco install dotnet-5.0-windowshosting --version=5.0.0 -y
 choco install googlechrome -y
 Add-WindowsFeature Web-Server
-Add-Content -Path "C:\inetpub\wwwroot\Default.htm\" -Value "Response from " + $($env:computername)
+Add-Content -Path "C:\inetpub\wwwroot\Default.htm\" -Value "Response from  $($env:computername)"
